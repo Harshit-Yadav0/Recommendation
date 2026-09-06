@@ -29,3 +29,9 @@ def add_sub(x,y,z):
             cursor.commit()
             break
     conn.close()
+
+
+
+def movie_rating(name,rating):
+    with open ("movies_rating.txt",'w') as file:
+        
